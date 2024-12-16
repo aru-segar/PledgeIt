@@ -1,16 +1,12 @@
-import './App.css'
+import 'react';
+import Landing from './components/Landing';
 
-function App() {
-
+const App = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-      <h2>Welcome to PledgeIt</h2>
+      <Landing />
     </div>
+  );
+};
 
-  )
-}
-
-export default App
+export default App;
