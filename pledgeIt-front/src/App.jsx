@@ -1,16 +1,12 @@
-import './App.css'
+import React from 'react';
+import VolunteerCategories from './components/VolunteerCategories';
 
-function App() {
-
+const App = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-      <h2>Welcome to PledgeIt</h2>
+      <VolunteerCategories  />
     </div>
+  );
+};
 
-  )
-}
-
-export default App
+export default App;
