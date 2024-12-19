@@ -1,23 +1,14 @@
-import React from 'react';
-import VolunteerCategories from './components/VolunteerCategories';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import About from "./components/About";
-
-const App = () => {
-  return (
-    <div>
-      <VolunteerCategories  />
-    </div>
-  );
-};
-
+import { Routes, Route } from "react-router-dom";
+import About from './components/About'
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/about" element={<About />} />
-      </Routes>
-    </Router>
+    <div>
+      <About />
+      {/* <Routes>
+        <Route path="/volunteercategories" element={<VolunteerCategories />} />
+        <Route path="/" element={<About />} />
+      </Routes> */}
+    </div>
   );
 }
 
