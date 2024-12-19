@@ -1,13 +1,18 @@
 import { Routes, Route } from "react-router-dom";
-import About from './components/About'
+import HomePage from './components/HomePage';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Features from './components/Features';
+
 function App() {
   return (
     <div>
-      <About />
-      {/* <Routes>
-        <Route path="/volunteercategories" element={<VolunteerCategories />} />
-        <Route path="/" element={<About />} />
-      </Routes> */}
+      <Header />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+      <Features />
+      <Footer />
     </div>
   );
 }

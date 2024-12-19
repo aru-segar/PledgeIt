@@ -1,5 +1,5 @@
 import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client'; // Corrected path
+import { createRoot } from 'react-dom';
 import './index.css';
 import App from './App.jsx';
 import { BrowserRouter } from 'react-router-dom';
