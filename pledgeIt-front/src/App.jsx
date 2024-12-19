@@ -1,10 +1,14 @@
 import React from 'react';
-import VolunteerCategories from './components/VolunteerCategories';
+import Footer from './components/Footer';
+import Features from './components/Features';
 
 const App = () => {
   return (
     <div>
-      <VolunteerCategories  />
+ 
+      <Features />
+      <Footer />
+
     </div>
   );
 };
