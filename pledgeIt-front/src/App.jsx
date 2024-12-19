@@ -1,19 +1,15 @@
-import React from 'react';
-import Header from './components/Header/Header';
-import Hero from './components/Hero/Hero';
-import Sectors from './components/Sectors/Sectors';
-import About from './components/About/About';
-
-
-const App = () => {
+import { Routes, Route } from "react-router-dom";
+import About from './components/About'
+function App() {
   return (
     <div>
-      <Header />
-      <Hero />
-      <Sectors />
       <About />
-\    </div>
+      {/* <Routes>
+        <Route path="/volunteercategories" element={<VolunteerCategories />} />
+        <Route path="/" element={<About />} />
+      </Routes> */}
+    </div>
   );
-};
+}
 
 export default App;
