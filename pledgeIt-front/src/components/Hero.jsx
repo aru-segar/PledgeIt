@@ -1,4 +1,5 @@
-import BackgroundImage from '../../assets/3.jpg'
+import BackgroundImage from '../assets/3.jpg';
+
 const Hero = () => {
     return (
       <section className="bg-cover bg-center text-right py-60 px-10 width=100%"

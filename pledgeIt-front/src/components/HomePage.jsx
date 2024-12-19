@@ -1,7 +1,7 @@
 import React from 'react';
-import About from 'components/About';
-import Hero from 'components/Hero';
-import Sectors from 'components/Sectors';
+import About from './About';
+import Hero from './Hero';
+import Sectors from './Sectors';
 
 const HomePage = () => {
     return (
