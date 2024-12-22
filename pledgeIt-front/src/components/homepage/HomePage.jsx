@@ -1,4 +1,4 @@
-import React from 'react';
+import 'react';
 import About from './About';
 import Hero from './Hero';
 import Sectors from './Sectors';

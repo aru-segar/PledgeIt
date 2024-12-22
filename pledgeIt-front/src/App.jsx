@@ -1,8 +1,8 @@
-import { Routes, Route } from "react-router-dom";
-import HomePage from './components/HomePage';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import VolunteerCategories from './components/VolunteerCategories';
+import { Routes, Route} from "react-router-dom";
+import HomePage from './components/homepage/HomePage';
+import Header from './components/template/Header';
+import Footer from './components/template/Footer';
+import VolunteerCategories from './components/events/VolunteerCategories';
 
 function App() {
   return (
