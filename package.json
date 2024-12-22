@@ -1,0 +1,17 @@
+{
+  "name": "pledgeit",
+  "private": true,
+  "version": "1.0.0",
+  "description": "PledgeIt Volunteer Engagement Platform",
+  "scripts": {
+    "dev": "npm run dev --prefix src",
+    "build": "npm run build --prefix src",
+    "lint": "npm run lint --prefix src"
+  },
+
+  "devDependencies": {
+  "vite": "^6.0.1",
+  "other-dev-dependencies": "version"
+}
+
+}
